@@ -6,14 +6,23 @@
     color: aliceblue;
     font-family:'Times New Roman', Times, serif;
     font-weight: bolder;
-    font-size: xx-large;
-    letter-spacing: 0.4rem;
+    /* font-size: xx-large; */
+    letter-spacing: 0.2rem;
+    background-image: linear-gradient(180deg,transparent,rgba(111, 214, 218, 0.61),rgb(42, 108, 119));
 
 }
 .main-body{
+    padding: 10px;
     background-color: #2C3E50;
     width: 100%;
-    height:500px
+    height:500px;
+    
+    font-family: 'Times New Roman', Times, serif;
+}
+.about-info{
+    color: aliceblue;
+    font-size:xx-large;
+    word-spacing: 4px;
 }
 .title{
     text-align: center;
@@ -23,9 +32,29 @@
     font-size: xx-large;
     letter-spacing: 0.4rem;
 }
+.ml15 {
+    font-weight: 800;
+    font-size: 3.9em;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+  }
+  
+  .ml15 .word {
+    display: inline-block;
+    line-height: 1em;
+  }
+
+
 @media screen and (max-width:350px){
     .heading{
-        height:200px
+        height:180px
     }
-    
+    .ml15{
+        font-size: 2.0em;
+    }
+    .about-info{
+        display: block;
+        font-size: large;
+        word-spacing: normal;
+    }
 }
